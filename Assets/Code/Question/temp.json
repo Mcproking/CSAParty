@@ -1,0 +1,27 @@
+{
+    "Questions": [
+        {
+            "Question" : "Which module gives control of the CPU to the process selected by the short-term scheduler?",
+            "Options" : ["Dispatcher","Interrupt","Scheduler","None Of The Mentioned"],
+            "Answer" : "Dispatcher"
+        },
+
+        {
+            "Question" : "The processes that are residing in main memory and are ready and waiting to execute are kept on a list called _____",
+            "Options" : ["Job Queue","Ready Queue","Execution Queue","Process Queue"],
+            "Answer" : "Ready Queue"
+        },
+
+        {
+            "Question" : "The interval from the time of submission of a process to the time of completion is termed as ________",
+            "Options" : ["Waiting Time","Turnaround Time","Response Time","Throughput"],
+            "Answer" : "Turnaround Time"
+        },
+
+        {
+            "Question" : "Which scheduling algorithm allocates the CPU first to the process that requests the CPU first?",
+            "Options" : ["First-come, First-served Scheduling","Shortest Job Scheduling","Priority Scheduling","None Of The Mentioned"],
+            "Answer" : "First-come, First-served Scheduling"
+        }
+    ]
+}   

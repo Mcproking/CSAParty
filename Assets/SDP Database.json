@@ -1,0 +1,603 @@
+{
+    "Questions" : [
+        {
+            "Question" : "Which module gives control of the CPU to the process selected by the short-term scheduler?",
+            "Options" : [ "Dispatcher", "Interrupt", "Scheduler", "None Of The Mentioned"],
+            "Answer" : "Dispatcher"
+        },
+
+        {
+            "Question" : "The processes that are residing in main memory and are ready and waiting to execute are kept on a list called _____",
+            "Options" : ["Job Queue","Ready Queue","Execution Queue","Process Queue"],
+            "Answer" : "Ready Queue"
+        },
+
+        {
+            "Question" : "The interval from the time of submission of a process to the time of completion is termed as ________",
+            "Options" : ["Waiting Time","Turnaround Time","Response Time","Throughput"],
+            "Answer" : "Turnaround Time"
+        },
+
+        {
+            "Question" : "Which scheduling algorithm allocates the CPU first to the process that requests the CPU first?",
+            "Options" : ["First-come, First-served Scheduling","Shortest Job Scheduling","Priority Scheduling","None Of The Mentioned"],
+            "Answer" : "First-come, First-served Scheduling"
+        },
+
+        {
+            "Question" : "In priority scheduling algorithm ____________",
+            "Options" : ["CPU is allocated to the process with highest priority","CPU is allocated to the process with lowest priority","Equal priority processes can not be scheduled","None of the mentioned"],
+            "Answer" : "CPU is allocated to the process with highest priority"
+        },
+
+        {
+            "Question" : "In priority scheduling algorithm, when a process arrives at the ready queue, its priority is compared with the priority of __________",
+            "Options" : ["All Processes","Currently Running Process","Parent Process","Init Process"],
+            "Answer" : "Currently Running Process"
+        },
+        
+        {
+            "Question" : "Which algorithm is defined in Time quantum?",
+            "Options" : ["Shortest Job Scheduling Algorithm","Round Robin Scheduling Algorithm","Priority Scheduling Algorithm","Multilevel Queue Scheduling Algorithm"],
+            "Answer" : "Round Robin Scheduling Algorithm"
+        },
+
+        {
+            "Question" : "Process are classified into different groups in __________",
+            "Options" : ["Shortest Job Scheduling Algorithm","Round Robin Scheduling Algorithm","Priority Scheduling Algorithm","Multilevel Queue Scheduling Algorithm"],
+            "Answer" : "Multilevel Queue Scheduling Algorithm"
+        },
+
+        {
+            "Question" : "In multilevel feedback scheduling algorithm ____________",
+            "Options" : ["A process can move to a different classified ready queue","Classification of ready queue is permanent","Processes are not classified into groups","None of the mentioned"],
+            "Answer" : "A process can move to a different classified ready queue"
+        },
+
+        {
+            "Question" : "Which one of the following can not be scheduled by the kernel?",
+            "Options" : ["Kernel Level Thread","User Level Thread","Process","None Of The Mentioned"],
+            "Answer" : "User Level Thread"
+        },
+
+        {
+            "Question" : "Who developed the idea of a stored program computer and modern computer architecture?",
+            "Options" : ["John Von Neumann","Bill Gates","Steve Jobs","Tim Berners-Lee"],
+            "Answer" : "John Von Neumann"
+        },
+
+        {
+            "Question" : "The idea developed in 1945 by Von Neumann of a computer holding both programs and the data used by the programs in memory is called the _______?",
+            "Options" : ["Memory Program System","Stored Program Concept","Stored Memory Concept","Stored Memory Program"],
+            "Answer" : "Stored Program Concept"
+        },
+
+        {
+            "Question" : "What connects the processor and memory?",
+            "Options" : ["Network Interface Card (NIC)","Cache","Buses","Control Unit"],
+            "Answer" : "Buses"
+        },
+
+        {
+            "Question" : "What are the 3 parts of the Von Neumann computer architecture?",
+            "Options" : ["Memory (CU & ALU), Hard Disk & Input/Output","Processor, RAM & ROM","Processor, RAM & Hard Disk","Processor (CU & ALU), Memory Unit & Input/Output"],
+            "Answer" : "Processor (CU & ALU), Memory Unit & Input/Output"
+        },
+
+        {
+            "Question" : "What are the two main parts of the processor?",
+            "Options" : ["Control Unit & Arithmetic Logic Unit","RAM & ROM","RAM & Cache","Control Unit & Cache"],
+            "Answer" : "Control Unit & Arithmetic Logic Unit"
+        },
+
+        {
+            "Question" : "Which of these is not a bus within the computer?",
+            "Options" : ["Address Bus","I/O Bus","Data Bus","Control"],
+            "Answer" : "I/O Bus"
+        },
+
+        {
+            "Question" : "Which of these buses is bi-directional?",
+            "Options" : ["Address Bus","Control Bus","Data Bus","Cache Bus"],
+            "Answer" : "Data Bus"
+        },
+
+        {
+            "Question" : "Which bus is used to send read and write signals to a storage device such as a HDD?",
+            "Options" : ["Data Bus","Address Bus","I/O Bus","Control Bus"],
+            "Answer" : "Control Bus"
+        },
+
+        {
+            "Question" : "What is the location of where data can be found in the computer memory is called?",
+            "Options" : ["Address","Coordinates","Register","Cache"],
+            "Answer" : "Address"
+        },
+
+        {
+            "Question" : "What is the small high speed storage areas within the memory and processor are known as?",
+            "Options" : ["Addresses","Registers","Cache","Buses"],
+            "Answer" : "Registers"
+        },
+
+        {
+            "Question" : "The MDR, MAR, PC & CIR are all examples of _____",
+            "Options" : ["Buses","Control Units","Registers","Addresses"],
+            "Answer" : "Registers"
+        },
+
+        {
+            "Question" : "Which of the following is not a register?",
+            "Options" : ["MAR","MDR","PC","CU"],
+            "Answer" : "CU"
+        },
+
+        {
+            "Question" : "What does the DDR in DDR SDRAM stand for?",
+            "Options" : ["Double Data Rate","Dynamic Data Rate","Double Data Repitition","Dynamic Data Repitition"],
+            "Answer" : "Double Data Rate"
+        },
+
+        {
+            "Question" : "The full name for the RAM used in modern computers is SDRAM, what does the SD stand for?",
+            "Options" : ["Synchronous Data","Synchronous Dynamic","Secure Digital","Synchronous Digital"],
+            "Answer" : "Synchronous Dynamic"
+        },
+
+        {
+            "Question" : "Where are the Data and Instructions in use stored?",
+            "Options" : ["Processor","Embedded System","Hard Disk Drive","Main Memory (RAM)"],
+            "Answer" : "Main Memory (RAM)"
+        },
+
+        {
+            "Question" : "Processors have a speed measured in ______",
+            "Options" : ["Hertz (Hz)","Bits","Bytes","Seconds"],
+            "Answer" : "Hertz (Hz)"
+        },
+
+        {
+            "Question" : "What does not affect the performance of the computer?",
+            "Options" : ["Clock Speed","Number Of Cores","Cache Size","The Number Of Instructions In The Program"],
+            "Answer" : "The Number Of Instructions In The Program"
+        },
+
+        {
+            "Question" : "If the number of cores goes up from 2 to 4, what is the exact effect on performance?",
+            "Options" : ["Performance decreases","The maximum number of instructions executed per second doubles","The maximum number of instructions executed per second quadruples","The maximum number of instructions executed per second is halved"],
+            "Answer" : "The maximum number of instructions executed per second doubles"
+        },
+
+        {
+            "Question" : "If the processing speed goes up from 1GHZ to 4GHZ, what is the exact effect on the performance of the computer?",
+            "Options" : ["The maximum number of instructions executed per second doubles","The maximum number of instructions executed per second quadruples","The maximum number of instructions executed per second is halved","The maximum number of instructions executed per second is quartered"],
+            "Answer" : "The maximum number of instructions executed per second quadruples"
+        },
+
+        {
+            "Question" : "Which is an example of an Embedded System",
+            "Options" : ["Laptops","Tablets","PCs","Washing Machine"],
+            "Answer" : "Washing Machine"
+        },
+
+        {
+            "Question" : "What is the part of a processor in which instructions are executed known as?",
+            "Options" : ["Core","Centre","Execution","Instruction Centre"],
+            "Answer" : "Core"
+        },
+
+        {
+            "Question" : "What acts as an intermediary between the processor and the Main Memory (RAM)?",
+            "Options" : ["Bus","User","Cache","Clock"],
+            "Answer" : "Cache"
+        },
+
+        {
+            "Question" : "What is held in cache?",
+            "Options" : ["All of the programming instructions","Commonly used instructions and data","Instructions that have been processed","Data that hasn’t been used for a long time"],
+            "Answer" : "Commonly used instructions and data"
+        },
+
+        {
+            "Question" : "What does Firmware refer to?",
+            "Options" : ["Any hardware that can’t easily break","A combination of hardware and software","A type of software that is updated to make a computer work better","Hardware used in kitchens"],
+            "Answer" : "A combination of hardware and software"
+        },
+
+        {
+            "Question" : "What component holds the address of the next instruction?",
+            "Options" : ["Memory Address Register","Memory Data Register","Program Counter","Accumulator"],
+            "Answer" : "Memory Address Register"
+        },
+
+        {
+            "Question" : "Results of calculations are held in this register",
+            "Options" : ["Memory Address Register","Memory Data Register","Program Counter","Accumulator"],
+            "Answer" : "Accumulator"
+        },
+
+        {
+            "Question" : "This holds the instruction/data temporarily after it is brought to the processor from the main memory",
+            "Options" : ["Memory Address Register","Memory Data Register","Program Counter","Accumulator"],
+            "Answer" : "Memory Data Register"
+        },
+
+        {
+            "Question" : "This holds the number of the current instruction being worked on",
+            "Options" : ["Memory Address Register","Memory Data Register","Program Counter","Accumulator"],
+            "Answer" : "Program Counter"
+        },
+
+        {
+            "Question" : "This would perform an operation including the word “And”",
+            "Options" : ["Arithmetic Logic Unit","Accumulator","Cache","Control Unit"],
+            "Answer" : "Arithmetic Logic Unit"
+        },
+
+        {
+            "Question" : "This would perform an operation such as 5+8",
+            "Options" : ["Cache","Control Unit","Accumulator","Arithmetic Logic Unit"],
+            "Answer" : "Arithmetic Logic Unit"
+        },
+
+        {
+            "Question" : "This would reduce the number of memory/processor transfers",
+            "Options" : ["Arithmetic Logic Unit","Cache","Control Unit","Accumulator"],
+            "Answer" : "Cache"
+        },
+
+        {
+            "Question" : "This doesn’t happen during the Fetch part of the cycle",
+            "Options" : ["Address Bus is used","Program Counter increments by one","Arithmetic operations are performed","Main Memory is addressed"],
+            "Answer" : "Arithmetic operations are performed"
+        },
+
+        {
+            "Question" : "This doesn’t happen during the Decode / Execute part of the cycle",
+            "Options" : ["Current Instruction is held in the Current Instruction Register (CIR)","Results are held in the Accumulator","Status Register updated","Instructions are transferred from Main Memory"],
+            "Answer" : "Instructions are transferred from Main Memory"
+        },
+
+        {
+            "Question" : "What is held in ROM?",
+            "Options" : ["Data currently in use","Bootstrap Loader","Instructions frequently used","Operating System"],
+            "Answer" : "Bootstrap Loader"
+        },
+
+        {
+            "Question" : "It carries the address of the next instruction that will be fetched",
+            "Options" : ["Address Bus","Data Bus","Control Bus","System Bus"],
+            "Answer" : "Address Bus"
+        },
+
+        {
+            "Question" : "Which component generates addresses?",
+            "Options" : ["Processor","Main Memory","Control Unit","Secondary Storage"],
+            "Answer" : "Processor"
+        },
+
+        {
+            "Question" : "What is transferred down the data bus?",
+            "Options" : ["Data only","Addresses only","Data and Instructions","Data, Instructions and Addresses"],
+            "Answer" : "Data and Instructions"
+        },
+
+        {
+            "Question" : "What is the purpose of the accumulator?",
+            "Options" : ["To perform arithmetic operations","To hold the results of a calculation","To hold the accumulation of instructions that have happened","None of the mentioned"],
+            "Answer" : "To hold the results of a calculation"
+        },
+
+        {
+            "Question" : "The ______ format is usually used to store data",
+            "Options" : ["Binary-coded Decimal (BCD)","Decimal","Hexadecimal","Octal"],
+            "Answer" : "Binary-coded Decimal (BCD)"
+        },
+
+        {
+            "Question" : "A source program is usually in _______",
+            "Options" : ["Assembly language","Machine level language","High-level language","Natural language"],
+            "Answer" : "High-level language"
+        },
+
+        {
+            "Question" : "The small extremely fast, RAM’s are called as _______",
+            "Options" : ["Cache","Heaps","Accumulators","Stacks"],
+            "Answer" : "Cache"
+        },
+
+        {
+            "Question" : "The ALU makes use of _______ to store the intermediate results",
+            "Options" : ["Accumulators","Registers","Heaps","Stacks"],
+            "Answer" : "Accumulators"
+        },
+
+        {
+            "Question" : "The control unit controls other units by generating __________",
+            "Options" : ["Control Signals","Timing Signals","Transfer Signals","Command Signals"],
+            "Answer" : "Timing Signals"
+        },
+
+        {
+            "Question" : "To reduce the memory access time we generally make use of ______",
+            "Options" : ["Heaps","Higher capacity RAM’s","SDRAM’s","Cache’s"],
+            "Answer" : "Cache’s"
+        },
+
+        {
+            "Question" : "______ is generally used to increase the apparent size of physical memory",
+            "Options" : ["Secondary Memory","Virtual Memory","Hard-disk","Disks"],
+            "Answer" : "Virtual Memory"
+        },
+
+        {
+            "Question" : "The time delay between two successive initiations of memory operation _______",
+            "Options" : ["Memory Access Time","Memory Search Time","Memory Cycle Time","Instruction Delay"],
+            "Answer" : "Memory Cycle Time"
+        },
+
+        {
+            "Question" : "______ are used to overcome the difference in data transfer speeds of various devices",
+            "Options" : ["Speed Enhancing Circuitry","Bridge Circuits","Multiple Buses","Buffer Registers"],
+            "Answer" : "Buffer Registers"
+        },
+
+        {
+            "Question" : "The decoded instruction is stored in ______",
+            "Options" : ["Instruction Register (IR)","PC","Registers","Memory Data Register (MDR)"],
+            "Answer" : "Instruction Register (IR)"
+        },
+
+        {
+            "Question" : "Which registers can interact with the secondary storage?",
+            "Options" : ["Memory Address Register (MAR)","PC","Instruction Register (IR)","Memory Data Register (MDR)"],
+            "Answer" : "Memory Address Register (MAR)"
+        },
+
+        {
+            "Question" : "During the execution of a program which gets initialized first?",
+            "Options" : ["Memory Data Register (MDR)","Instruction Register (IR)","PC","Memory Address Register (MAR)"],
+            "Answer" : "PC"
+        },
+
+        {
+            "Question" : "Which of the register/s of the processor is/are connected to Memory Bus?",
+            "Options" : ["PC","Memory Address Register (MAR)","Instruction Register (IR)","Both PC and MAR"],
+            "Answer" : "Memory Address Register (MAR)"
+        },
+
+        {
+            "Question" : "The internal components of the processor are connected by _______",
+            "Options" : ["Processor Intra-connectivity Circuitry","Processor Bus","Memory Bus","Rambus"],
+            "Answer" : "Processor Bus"
+        },
+
+        {
+            "Question" : "During the execution of the instructions, a copy of the instructions is placed in the ______",
+            "Options" : ["Register","RAM","System Heap","Cache"],
+            "Answer" : "Cache"
+        },
+
+        {
+            "Question" : "A processor performing fetch or decoding of different instruction during the execution of another instruction is called ______",
+            "Options" : ["Super-scaling","Pipe-lining","Parallel Computation","None Of The Mentioned"],
+            "Answer" : "Pipe-lining"
+        },
+
+        {
+            "Question" : "The clock rate of the processor can be improved by _________",
+            "Options" : ["Improving the IC technology of the logic circuits","Reducing the amount of processing done in one step","By using the overclocking method","All Of The Mentioned"],
+            "Answer" : "All Of The Mentioned"
+        },
+
+        {
+            "Question" : "An optimizing Compiler does _________",
+            "Options" : ["Better compilation of the given piece of code","Takes advantage of the type of processor and reduces its process time","Does better memory management","None of the mentioned"],
+            "Answer" : "Takes advantage of the type of processor and reduces its process time"
+        },
+
+        {
+            "Question" : "The ultimate goal of a compiler is to ________",
+            "Options" : ["Reduce the clock cycles for a programming task","Reduce the size of the object code","Be versatile","Be able to detect even the smallest of errors"],
+            "Answer" : "Reduce the clock cycles for a programming task"
+        },
+
+        {
+            "Question" : "When Performing a looping operation, the instruction gets stored in the ______",
+            "Options" : ["Registers","Cache","System Heap","System Stack"],
+            "Answer" : "Cache"
+        },
+
+        {
+            "Question" : "CISC stands for _______",
+            "Options" : ["Complete Instruction Sequential Compilation","Computer Integrated Sequential Compiler","Complex Instruction Set Computer","Complex Instruction Sequential Compilation"],
+            "Answer" : "Complex Instruction Set Computer"
+        },
+
+        {
+            "Question" : "During the transfer of data between the processor and memory we use ______",
+            "Options" : ["Cache","Translation Lookaside Buffer (TLB)","Buffers","Registers"],
+            "Answer" : "Registers"
+        },
+
+        {
+            "Question" : "What is the CPU is responsible for?",
+            "Options" : ["Allocating memory locations to save files","All storage methods in your system","The monitoring of the computer's temperature","All of a computer’s processing"],
+            "Answer" : "All of a computer’s processing"
+        },
+
+        {
+            "Question" : "When using the Von Neumann architecture computer programs and the data the programs are using are stored in the same memory, why?",
+            "Options" : ["To save memory","To speed up the processing time","To complicate the process","To make it easier for people to save things"],
+            "Answer" : "To speed up the processing time"
+        },
+
+        {
+            "Question" : "Which of the following is a characteristic of Random Access Memory (RAM)?",
+            "Options" : ["Memory used to store running programs and to manipulate data","Main memory as this is the memory we use first","A source of memory to store your files such as your coursework","Used to store boot up instructions for loading the OS"],
+            "Answer" : "Memory used to store running programs and to manipulate data"
+        },
+
+        {
+            "Question" : "What is the Control Unit?",
+            "Options" : ["The unit which allows the user to control the interface","The unit that holds memory locations of data","The control unit is a component of a computer's central processing unit that directs the operation of the processor","The unit which effects the setting up peripheral devices"],
+            "Answer" : "The control unit is a component of a computer's central processing unit that directs the operation of the processor"
+        },
+
+        {
+            "Question" : "Which of the following does the Arithmetic Logic Unit not do?",
+            "Options" : ["Arithmetic Operations","Shift Operations","Shift Data Flow","Logical Operations"],
+            "Answer" : "Shift Data Flow"
+        },
+
+        {
+            "Question" : "What is the Clock speed in relation to the CPU?",
+            "Options" : ["The mbps where the computer sends data","A physical flow of electricity within the computer","The operating speed of the clock within the computer","The operating speed of a computer or its microprocessor, expressed in cycles per second (megahertz)"],
+            "Answer" : "The operating speed of a computer or its microprocessor, expressed in cycles per second (megahertz)"
+        },
+
+        {
+            "Question" : "Which of these is true about the greater a CPU's clock speed?",
+            "Options" : ["The quicker the CPU can cycle through instructions and complete tasks","The more detailed the completion of tasks are done","The slower the CPU handles instructions","The quicker the main memory and secondary memory exchange data"],
+            "Answer" : "The quicker the CPU can cycle through instructions and complete tasks"
+        },
+
+        {
+            "Question" : "What impact does having more cores have on a CPU?",
+            "Options" : ["Less cores are better for faster processing","More cores means that the CPU does not need a heat sink","The more cores, the more instructions can be processed at one time","The more cores, the slower instructions are processed"],
+            "Answer" : "The more cores, the more instructions can be processed at one time"
+        },
+
+        {
+            "Question" : "What is Cache memory?",
+            "Options" : ["It is the largest group of memory in the hard disk","It is a large piece of memory accessed by the CPU","It is the place that instructions hardly used are stored","It is a small amount of very fast, expensive memory in the CPU"],
+            "Answer" : "It is a small amount of very fast, expensive memory in the CPU"
+        },
+
+        {
+            "Question" : "What is Level 1 Cache?",
+            "Options" : ["Extremely fast but small (between 2-64KB), located very close to the processor","The lowest part of the memory triangle","Extremely slow and large in memory (2-64GB) and located far from the processor","Extremely fast but large in memory (2-64GB) , located very close to the processor"],
+            "Answer" : "Extremely fast but small (between 2-64KB), located very close to the processor"
+        },
+
+        {
+            "Question" : "Which type of memory sits in the main memory?",
+            "Options" : ["RAM (Random Access Memory)","Solid State Disk","Flash Memory","Hard Drive"],
+            "Answer" : "RAM (Random Access Memory)"
+        },
+
+        {
+            "Question" : "What is computer architecture?",
+            "Options" : ["A set of categories and methods that specify the functioning, organisation, and implementation of computer systems","A set of principles and methods that specify the functioning, organisation, and implementation of computer systems","A set of functions and methods that specify the functioning, organisation, and implementation of computer systems","None of the mentioned"],
+            "Answer" : "A set of principles and methods that specify the functioning, organisation, and implementation of computer systems"
+        },
+
+        {
+            "Question" : "What is computer organization?",
+            "Options" : ["The structure and behaviour of a computer system as observed by the user","The structure of a computer system as observed by the developer","The structure and behaviour of a computer system as observed by the developer","All of the mentioned"],
+            "Answer" : "The structure and behaviour of a computer system as observed by the user"
+        },
+
+        {
+            "Question" : "Which of the architecture is power efficient?",
+            "Options" : ["RISC","ISA","IANA","CISC"],
+            "Answer" : "RISC"
+        },
+
+        {
+            "Question" : "The IA-32 system follows which of the following design?",
+            "Options" : ["CISC","SIMD","RISC","None Of The Mentioned"],
+            "Answer" : "CISC"
+        },
+
+        {
+            "Question" : "In CISC architecture most of the complex instructions are stored in _____",
+            "Options" : ["CMOS","Register","Transistors","Diodes"],
+            "Answer" : "Transistors"
+        },
+
+        {
+            "Question" : "Both the CISC and RISC architectures have been developed to reduce the ______",
+            "Options" : ["Time Delay","Semantic Gap","Cost","All Of The Mentioned"],
+            "Answer" : "Semantic Gap"
+        },
+
+        {
+            "Question" : "The reason for the cells to lose their state over time is ________",
+            "Options" : ["Use of Shift registers","The lower voltage levels","Usage of capacitors to store the charge","None of the mentioned"],
+            "Answer" : "Usage of capacitors to store the charge"
+        },
+
+        {
+            "Question" : "n order to read multiple bytes of a row at the same time, we make use of ______",
+            "Options" : ["Memory Extension","Cache","Shift Register","Latch"],
+            "Answer" : "Latch"
+        },
+
+        {
+            "Question" : "The difference in the address and data connection between DRAM’s and SDRAM’s is _______",
+            "Options" : ["The requirement of more address lines in SDRAM’s","The usage of a buffer in SDRAM’s","The usage of more number of pins in SDRAM’s","None of the mentioned"],
+            "Answer" : "The usage of a buffer in SDRAM’s"
+        },
+
+        {
+            "Question" : "The data is transferred over the RAMBUS as _______",
+            "Options" : ["Blocks","Swing voltages","Bits","Packets"],
+            "Answer" : "Swing voltages"
+        },
+
+        {
+            "Question" : "The memory devices which are similar to EEPROM but differ in the cost effectiveness is ______",
+            "Options" : ["CMOS","Memory Sticks","Blue-ray Devices","Flash Memory"],
+            "Answer" : "Flash Memory"
+        },
+
+        {
+            "Question" : "The drawback of building a large memory with DRAM is _________",
+            "Options" : ["The slow speed of operation","The large cost factor","The inefficient memory organisation","All of the mentioned"],
+            "Answer" : "The slow speed of operation"
+        },
+
+        {
+            "Question" : "The bit used to signify that the cache location is updated is ________",
+            "Options" : ["Flag Bit","Reference Bit","Update Bit","Dirty Bit"],
+            "Answer" : "Dirty Bit"
+        },
+
+        {
+            "Question" : " During a write operation if the required block is not present in the cache then ______ occurs",
+            "Options" : ["Write Miss","Write Latency","Write Hit","Write Delay"],
+            "Answer" : "Write Miss"
+        },
+
+        {
+            "Question" : "While using the direct mapping technique, in a 16 bit system the higher order 5 bits are used for ________",
+            "Options" : ["Id","Word","Tag","Block"],
+            "Answer" : "Tag"
+        },
+
+        {
+            "Question" : "The bit used to indicate whether the block was recently used or not is _______",
+            "Options" : ["Reference Bit","Dirty Bit","Control Bit","Idol Bit"],
+            "Answer" : "Dirty Bit"
+        },
+
+        {
+            "Question" : "The number successful accesses to memory stated as a fraction is called as ______",
+            "Options" : ["Access Rate","Success Rate","Hit Rate","Miss Rate"],
+            "Answer" : "Hit Rate"
+        },
+
+        {
+            "Question" : "For converting a virtual address into the physical address, the programs are divided into ________",
+            "Options" : ["Pages","Frames","Segments","Blocks"],
+            "Answer" : "Pages"
+        },
+
+        {
+            "Question" : "The fetch and execution cycles are interleaved with the help of ________",
+            "Options" : ["Modification In Processor Architecture","Clock","Special Unit","Control Unit"],
+            "Answer" : "Clock"
+        }
+    ]
+}
