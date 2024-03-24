@@ -24,6 +24,8 @@ public class Gameloop2D : MonoBehaviour
     public questionui questionUI;
     public GameObject correctBox;
     public GameObject worngBox;
+    public GameObject timeoutBox;
+    public GameObject textPrompt;
 
     [Header("Camera Related")]
     public Transform OriginalCameraPos;
@@ -51,6 +53,7 @@ public class Gameloop2D : MonoBehaviour
         {
             RoundText.text = "Round " + master.getCurrentRound() + "/" + master.MaxRound;
             yield return StartCoroutine(moveCamera(player.GetComponentInChildren<Transform>().Find("Camera Pos").position));
+            textPrompt.SetActive(true);
 
             //print("press space");
             while (!Input.GetKey(KeyCode.Space))
@@ -61,6 +64,7 @@ public class Gameloop2D : MonoBehaviour
 
             //print("start dice roll");
             yield return StartCoroutine(dice.rollDice(result => { diceResult = result; }));
+            textPrompt.SetActive(false);
 
             while (diceResult != 0)
             {
@@ -172,24 +176,28 @@ public class Gameloop2D : MonoBehaviour
                             else
                             {
                                 //print("answer worng / no give answer");
-                                worngBox.SetActive(true);
-                                yield return new WaitForSeconds(1.5f);
+                                
                                 //print(buttonText);
 
                                 if (timeTaken >= master.questionTime )
                                 {
                                     //no point are given.
                                     //print("no point inside wrong answer");
+                                    timeoutBox.SetActive(true);
+                                    yield return new WaitForSeconds(1.5f);
                                     player.setSmallPoint(player.getSmallPoint());
                                 }
                                 else
                                 {
                                     //add point when user answer with worng asnwer
                                     //print("add point without multiplyer");
+                                    worngBox.SetActive(true);
+                                    yield return new WaitForSeconds(1.5f);
                                     player.setSmallPoint(player.getSmallPoint() + (master.pointAchive * 1));
                                 }
 
                                 worngBox.SetActive(false);
+                                timeoutBox.SetActive(false);
                             }
 
                             // remove the question from the list

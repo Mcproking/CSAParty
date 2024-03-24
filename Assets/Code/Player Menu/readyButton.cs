@@ -1,3 +1,4 @@
+using System.Collections;
 using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
@@ -9,6 +10,7 @@ public class readyButton : MonoBehaviour, IPointerClickHandler
     private Button button;
     private Transform parentButton;
     private TMP_InputField NameInput;
+    private Image NameInputBG;
     private Button[] skinSelectButton;
     private string lineUp;
 
@@ -21,6 +23,7 @@ public class readyButton : MonoBehaviour, IPointerClickHandler
         button = GetComponent<Button>();
         parentButton = button.transform.parent.GetComponentInChildren<Transform>();
         NameInput = parentButton.Find("Name Area").Find("Name Input").GetComponent<TMP_InputField>();
+        NameInputBG = parentButton.Find("Name Area").Find("Name Input").GetComponent<Image>();
         skinSelectButton = parentButton.Find("Buttons").GetComponentsInChildren<Button>();
         //print(NameInput.text);
     }
@@ -48,6 +51,7 @@ public class readyButton : MonoBehaviour, IPointerClickHandler
             PlayerData playerData = new PlayerData(NameInput.text, characterManager.getSelectionOption(), true, lineUp);
             if(NameInput.text == "" || NameInput.text == null)
             {
+                StartCoroutine(flashInputBox());
                 print("Cannot have empty name");
                 return;
             }
@@ -71,5 +75,13 @@ public class readyButton : MonoBehaviour, IPointerClickHandler
             //print(characterManager.getSelectionOption());
             //print(PlayerName.text);
         }
+    }
+
+
+    private IEnumerator flashInputBox()
+    {
+        NameInputBG.color = new Color32(219, 137, 137, 255);
+        yield return new WaitForSeconds(1);
+        NameInputBG.color = Color.white;
     }
 }
