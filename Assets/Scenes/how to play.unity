@@ -1005,7 +1005,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 4. every correct question will get 25 TP. Every worng question will get
+  m_text: 4. every correct question will get 20 TP. Every worng question will get
     5 TP. Time's up will get nothing
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5141b6d50d350284d88b181d3baf80cd, type: 2}

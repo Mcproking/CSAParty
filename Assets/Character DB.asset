@@ -25,11 +25,35 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: 36c44a4876b6eda4da80229e1ed5be05, type: 3}
     description: Furina hehe
     copyright: Genshin Impact
-  - characterName: Gojo
-    characterSprite: {fileID: 21300000, guid: f5a0d7bdc53497147a33b6a66ae2a998, type: 3}
-    description: I'd win
-    copyright: JJK
   - characterName: Kafka
     characterSprite: {fileID: 21300000, guid: a6dc97e6e6f07754aaf109e191269bd4, type: 3}
     description: Boom
     copyright: Star Rail
+  - characterName: Gojo
+    characterSprite: {fileID: 21300000, guid: f5a0d7bdc53497147a33b6a66ae2a998, type: 3}
+    description: I'd win
+    copyright: JJK
+  - characterName: Ei
+    characterSprite: {fileID: 21300000, guid: 6907a8cffadd4894d926c10ac4eccf1e, type: 3}
+    description: Boba sword
+    copyright: Genshit Impact
+  - characterName: M4A1
+    characterSprite: {fileID: 21300000, guid: f5447e6648e354a48aa43d4c509cd551, type: 3}
+    description: Girl go pew pew
+    copyright: GFL
+  - characterName: Nobara
+    characterSprite: {fileID: 21300000, guid: 52cfc11f42f46f74396b6336bbe52ecf, type: 3}
+    description: AaAaAaA
+    copyright: JJK
+  - characterName: Stelle
+    characterSprite: {fileID: 21300000, guid: bca09845393b9dc40a8867d5b1260733, type: 3}
+    description: Rule ment to be broke
+    copyright: Star Rail
+  - characterName: Suisei
+    characterSprite: {fileID: 21300000, guid: 17df406cbcb53944aac74c3f12963817, type: 3}
+    description: axopath
+    copyright: Hololive
+  - characterName: Utena
+    characterSprite: {fileID: 21300000, guid: 4b27d8fa8eae69446b8f0337e7fea670, type: 3}
+    description: IYKYK
+    copyright: nah google it
