@@ -5885,7 +5885,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'TP '
+  m_text: PP
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5141b6d50d350284d88b181d3baf80cd, type: 2}
   m_sharedMaterial: {fileID: 5663021461166204749, guid: 5141b6d50d350284d88b181d3baf80cd, type: 2}
@@ -6857,7 +6857,7 @@ MonoBehaviour:
   pointAchive: 5
   pointMultipler: 4
   MaxRound: 10
-  questionTime: 10
+  questionTime: 15
   playerRoundText: {fileID: 782628377}
 --- !u!4 &1194868156
 Transform:
@@ -7672,7 +7672,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: PP
+  m_text: TP
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5141b6d50d350284d88b181d3baf80cd, type: 2}
   m_sharedMaterial: {fileID: 5663021461166204749, guid: 5141b6d50d350284d88b181d3baf80cd, type: 2}

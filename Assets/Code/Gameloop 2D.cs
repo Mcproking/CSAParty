@@ -148,12 +148,15 @@ public class Gameloop2D : MonoBehaviour
                             yield return new WaitForFixedUpdate();
                         }
 
-                        foreach (returnButtonText option in ReturnButtonText)
-                        {
-                            if (option.getReturnedText() != null)
-                            {
-                                buttonText = option.getReturnedText();
-                                break;
+                        if (question_buttonPressed) { 
+                            foreach (returnButtonText option in ReturnButtonText){
+                                string getText = option.getReturnedText();
+                                if (getText != null)
+                                {
+                                    buttonText = getText;
+                                    print("button text get " + buttonText +" " + getText);  
+                                    break;
+                                }
                             }
                         }
 
@@ -201,13 +204,23 @@ public class Gameloop2D : MonoBehaviour
                             }
 
                             // remove the question from the list
+                            print("remove the question");
                             questionUI.endQuestion(Question);
 
                             // reset the button 
+                            print("reset the button");
                             question_buttonPressed = false;
 
                             // reset time taken
+                            print("reset time and buttontext");
                             timeTaken = 0;
+                            buttonText = "";
+
+                            // reset per button text
+                            foreach (returnButtonText option in ReturnButtonText)
+                            {
+                                option.resetReturnText();
+                            }
                         }
 
                     }

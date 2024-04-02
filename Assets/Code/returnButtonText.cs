@@ -17,11 +17,18 @@ public class returnButtonText : MonoBehaviour, IPointerClickHandler
     void doReturnText(Button button)
     {
         ReturnedText = GetComponentInChildren<TextMeshProUGUI>().text;
+        print("do return trext is " +  ReturnedText);
     }
 
     public string getReturnedText()
     {
+        print("send return text" + ReturnedText);
         return ReturnedText;
+    }
+
+    public void resetReturnText()
+    {
+        ReturnedText = null;
     }
 
     public void OnPointerClick(PointerEventData eventData)
